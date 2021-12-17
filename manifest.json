@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "version": "0.0.1",
+  "name": "Pomodex",
+  "description": "",
+  "author": "Pedro Isac",
+  "browser_action": {
+    "default_title": "Pomodex",
+    "default_popup": "index.html"
+  }
+}
