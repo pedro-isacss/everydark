@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "name": "Every Dark",
   "description": "",
   "author": "Pedro Isac",
@@ -12,5 +12,11 @@
     "service_worker": "index.js"
   },
   "host_permissions": ["http://*/*", "https://*/*"],
-  "permissions": ["tabs", "scripting"]
+  "permissions": ["tabs", "scripting", "storage"],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "css": ["css/colors.css", "css/containers.css", "css/texts.css"]
+    }
+  ]
 }

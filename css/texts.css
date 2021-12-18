@@ -1,0 +1,20 @@
+@import "./colors.css";
+
+body.every-dark h1,
+body.every-dark h2,
+body.every-dark h3 {
+  color: var(--titleColor) !important;
+  font-weight: 800 !important;
+}
+
+body.every-dark p,
+body.every-dark span,
+body.every-dark pre,
+body.every-dark input {
+  color: var(--textColor) !important;
+  border-color: var(--boderColor) !important;
+}
+
+body.every-dark a {
+  color: var(--linkColor) !important;
+}

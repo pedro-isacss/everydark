@@ -1,0 +1,19 @@
+@import "./colors.css";
+
+body.every-dark,
+body.every-dark main,
+body.every-dark div,
+body.every-dark header {
+  background-color: var(--black) !important;
+  border-color: var(--boderColor) !important;
+}
+
+body.every-dark div > div {
+  background-color: transparent !important;
+  border-color: var(--boderColor) !important;
+}
+
+body.every-dark ul,
+body.every-dark button {
+  background-color: var(--secondaryBlack);
+}
