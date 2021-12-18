@@ -1,11 +1,15 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "version": "0.0.1",
-  "name": "Pomodex",
+  "name": "Every Dark",
   "description": "",
   "author": "Pedro Isac",
-  "browser_action": {
-    "default_title": "Pomodex",
-    "default_popup": "index.html"
-  }
+  "action": {
+    "default_title": "Every Dark"
+  },
+  "background": {
+    "service_worker": "index.js"
+  },
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "permissions": ["tabs", "scripting"]
 }
