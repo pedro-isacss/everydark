@@ -5,7 +5,8 @@
   "description": "",
   "author": "Pedro Isac",
   "action": {
-    "default_title": "Every Dark"
+    "default_title": "Every Dark",
+    "default_icon": "./icon.png"
   },
   "background": {
     "service_worker": "index.js"
