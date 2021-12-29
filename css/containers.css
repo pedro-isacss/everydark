@@ -3,12 +3,15 @@
 body.every-dark,
 body.every-dark main,
 body.every-dark div,
+body.every-dark section,
 body.every-dark header {
   background-color: var(--black) !important;
   border-color: var(--boderColor) !important;
 }
 
-body.every-dark div > div {
+body.every-dark div > div,
+body.every-dark div > section body.every-dark section > div,
+body.every-dark section > section {
   background-color: transparent !important;
   border-color: var(--boderColor) !important;
 }
