@@ -1,5 +1,5 @@
 # Every Dark 🌜
-![Every Dark](https://i.ibb.co/r6tsVZ1/Design-sem-nome.png)
+![Every Dark](./readme.png)
 
 **Every Dark** is an extension for Google Chrome that allows you to browse (on almost any website) with dark mode active.
 
