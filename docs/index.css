@@ -73,12 +73,28 @@ img{
   }
 
   .container img{
-    max-width: 204px;
+    max-width: 156px;
     margin-bottom: 32px;
   }
 }
 
+.copy{
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+}
+
+.copy a{
+  color: #fff;
+}
+
 @media (max-width: 440px) {
+  .container{
+    margin-top: -16px;
+  }
+
   .container .buttons{
     flex-direction: column;
   }
