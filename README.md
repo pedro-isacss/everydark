@@ -1,5 +1,4 @@
 # EveryDark 🌜 - ![GitHub repo size](https://img.shields.io/github/repo-size/pedro-isacss/everydark?color=%23444) ![GitHub](https://img.shields.io/github/license/pedro-isacss/everydark?color=%23444)
-![EveryDark](./readme.png)
 
 **EveryDark** is an extension for Google Chrome that allows you to browse (on almost any website) with dark mode active.
 
